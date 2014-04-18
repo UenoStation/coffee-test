@@ -1,0 +1,7 @@
+#voteColumn {
+    float: left;
+    min-width: 300px;
+}
+#createColumn {
+    float: left;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placeable Test</title>
+
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <h4>Votes</h4>
+    <div id="voteColumn"></div>
+
+    <div id="createColumn">
+        <p>Create Coffee</p>
+        <div>
+            <form action="submitForm()">
+                <p>Name:</p>
+                <input id="nameText" type="text" placeholder="Enter Name">
+                <p>Description:</p>
+                <input id="descText" type="text" placeholder="Enter Description"><br>
+                <input id="droast" type="radio" name="roast" value="Dark">
+                <label for="droast">Dark Roast</label><br>
+                <input id="lroast" type="radio" name="roast" value="Light">
+                <label for="lroast">Light Roast</label><br>
+                <input id="submitBtn" type="button" name="submit" value="Submit">
+            </form>
+
+        </div>
+    </div>
+
+    <script src="public/js/main.js"></script>
+</body>
+</html>
